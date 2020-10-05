@@ -5,8 +5,8 @@ minukube + netflix techs
 criar uma arquitetura com microservices que faca upload de videos com a qualidade de acorda com a internet da requisicao
 
 # Steps
-- [] Roteamento com netflix Zuul
-- [] Escalibilidade na arquitetura de microservicos
-- [] ileStorage S3 AWS
-- [] utilizar MiniKube-Kubernetes
-- [] utilizar load balancer
+- [x] Roteamento com netflix Zuul
+- [x] Escalibilidade na arquitetura de microservicos
+- [x] fileStorage S3 AWS
+- [x] utilizar MiniKube-Kubernetes
+- [x] utilizar load balancer

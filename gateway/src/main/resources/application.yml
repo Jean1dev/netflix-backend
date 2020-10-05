@@ -1,0 +1,17 @@
+server:
+  port: 8084
+
+zuul:
+  host:
+    connect-timeout-millis: 1000
+    socket-timeout-millis: 60000
+  routes:
+    fullhd:
+      path: /fullhd/**
+      url: http://localhost:8081
+    hd:
+      path: /hd/**
+      url: http://localhost:8082
+    pocket:
+      path: /pocket/**
+      url: http://localhost:8083
